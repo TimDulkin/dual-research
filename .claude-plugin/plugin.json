@@ -1,0 +1,19 @@
+{
+  "name": "dual-research",
+  "version": "0.1.0",
+  "description": "Universal web research with dual-LLM triangulation. Claude researches independently, GPT-5 cross-checks via Codex CLI, findings are merged with conflict resolution and primary-source verification. Graceful solo fallback when Codex is unavailable.",
+  "author": {
+    "name": "Tsimafei Dulkin"
+  },
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-code-plugin",
+    "research",
+    "web-search",
+    "triangulation",
+    "verification",
+    "codex",
+    "cross-check"
+  ]
+}
