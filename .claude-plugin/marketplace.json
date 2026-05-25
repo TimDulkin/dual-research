@@ -1,0 +1,22 @@
+{
+  "name": "dual-research",
+  "owner": {
+    "name": "Tsimafei Dulkin",
+    "email": "tsimafei.dulkin@gmail.com"
+  },
+  "metadata": {
+    "description": "Universal web research with dual-LLM triangulation (Claude + GPT-5 via Codex).",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "dual-research",
+      "description": "Universal web research with dual-LLM triangulation. Claude researches independently, GPT-5 cross-checks via Codex CLI, findings are merged with conflict resolution and primary-source verification.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Tsimafei Dulkin"
+      },
+      "source": "./plugins/dual-research"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 ---
-name: research
 description: "Deep web research with dual-LLM triangulation (Claude + GPT-5 via Codex). Usage: /dual-research:research <topic or question>"
+argument-hint: "<topic or question to research>"
+allowed-tools: WebSearch, WebFetch, Bash, Agent
 ---
 
 # Dual Research Protocol
